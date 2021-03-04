@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Approach 5</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="react.js"></script>
+  <script src="react-dom.js"></script>
+  <script src="babel.min.js"></script>
+  <script type="text/babel">
+  //Approach 5:
+  class HelloWorld extends React.Component{
+    render(){
+      return(
+        <h1>Hello World App -  Approach 5</h1>
+      );
+    }
+  }
+
+  ReactDOM.render(<HelloWorld/>, document.getElementById('root'));
+  
+  </script>
+</body>
+</html>
